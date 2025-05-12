@@ -1,7 +1,20 @@
-Protocol Command Cheatsheets (HTTP, FTP, POP3, SMTP, IMAP)
 # Protocol Command Cheatsheets
 
 This document provides a quick reference to common commands for several internet protocols: HTTP, FTP, POP3, SMTP, and IMAP.
+
+## Table of Contents
+
+* [HTTP Cheatsheet](#http-cheatsheet)
+    * [Common HTTP Methods](#common-http-methods)
+    * [Common HTTP Status Codes](#common-http-status-codes)
+* [FTP Cheatsheet](#ftp-cheatsheet)
+    * [Common FTP Commands](#common-ftp-commands)
+* [POP3 Cheatsheet](#pop3-cheatsheet)
+    * [Common POP3 Commands](#common-pop3-commands)
+* [SMTP Cheatsheet](#smtp-cheatsheet)
+    * [Common SMTP Commands](#common-smtp-commands)
+* [IMAP Cheatsheet](#imap-cheatsheet)
+    * [Common IMAP Commands](#common-imap-commands)
 
 ## HTTP Cheatsheet
 
@@ -85,7 +98,7 @@ POP3 (Post Office Protocol version 3) is used to retrieve email from a mail serv
 * **RETR:** Retrieves a message by number.
 * **DELE:** Marks a message for deletion.
 * **RSET:** Unmarks messages marked for deletion.
-* **TOP:** Retrieves the headers and the first *n* lines of a message.
+* **TOP:** Retrieves the headers and the first \*n\* lines of a message.
 * **UIDL:** Lists message unique IDs.
 * **QUIT:** Terminates the session and expunges (deletes) marked messages.
 * **CAPA:** Lists the capabilities of the server.
